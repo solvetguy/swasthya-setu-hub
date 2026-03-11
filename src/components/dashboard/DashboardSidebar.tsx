@@ -1,6 +1,6 @@
 import {
   LayoutDashboard, User, FileText, Upload, QrCode, Bell,
-  Users, Share2, Settings, Heart, LogOut,
+  Users, Share2, Settings, Heart, LogOut, Stethoscope,
 } from "lucide-react";
 import { NavLink } from "@/components/NavLink";
 import { useLocation, useNavigate } from "react-router-dom";

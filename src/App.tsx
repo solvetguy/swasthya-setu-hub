@@ -40,6 +40,7 @@ const App = () => (
             <Route path="reminders" element={<MedicineReminders />} />
             <Route path="family" element={<FamilyProfiles />} />
             <Route path="share" element={<ShareRecords />} />
+            <Route path="doctors" element={<DoctorNetwork />} />
             <Route path="settings" element={<SettingsPage />} />
           </Route>
           <Route path="*" element={<NotFound />} />
