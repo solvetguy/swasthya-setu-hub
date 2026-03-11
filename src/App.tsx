@@ -17,6 +17,7 @@ import MedicineReminders from "./pages/dashboard/MedicineReminders";
 import FamilyProfiles from "./pages/dashboard/FamilyProfiles";
 import ShareRecords from "./pages/dashboard/ShareRecords";
 import SettingsPage from "./pages/dashboard/SettingsPage";
+import DoctorNetwork from "./pages/dashboard/DoctorNetwork";
 
 const queryClient = new QueryClient();
 
