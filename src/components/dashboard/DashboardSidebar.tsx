@@ -1,6 +1,6 @@
 import {
   LayoutDashboard, User, FileText, Upload, QrCode, Bell,
-  Users, Share2, Settings, Heart, LogOut,
+  Users, Share2, Settings, Heart, LogOut, Stethoscope,
 } from "lucide-react";
 import { NavLink } from "@/components/NavLink";
 import { useLocation, useNavigate } from "react-router-dom";
@@ -19,6 +19,7 @@ const items = [
   { title: "Medicine Reminders", url: "/dashboard/reminders", icon: Bell },
   { title: "Family Profiles", url: "/dashboard/family", icon: Users },
   { title: "Share Records", url: "/dashboard/share", icon: Share2 },
+  { title: "Doctor Network", url: "/dashboard/doctors", icon: Stethoscope },
   { title: "Settings", url: "/dashboard/settings", icon: Settings },
 ];
 

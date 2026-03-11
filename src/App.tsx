@@ -17,6 +17,7 @@ import MedicineReminders from "./pages/dashboard/MedicineReminders";
 import FamilyProfiles from "./pages/dashboard/FamilyProfiles";
 import ShareRecords from "./pages/dashboard/ShareRecords";
 import SettingsPage from "./pages/dashboard/SettingsPage";
+import DoctorNetwork from "./pages/dashboard/DoctorNetwork";
 
 const queryClient = new QueryClient();
 
@@ -39,6 +40,7 @@ const App = () => (
             <Route path="reminders" element={<MedicineReminders />} />
             <Route path="family" element={<FamilyProfiles />} />
             <Route path="share" element={<ShareRecords />} />
+            <Route path="doctors" element={<DoctorNetwork />} />
             <Route path="settings" element={<SettingsPage />} />
           </Route>
           <Route path="*" element={<NotFound />} />
